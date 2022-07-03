@@ -1,0 +1,638 @@
+EkimsDed-Europa
+
+ c:\steamcmd\steamcmd.exe +login anonymous +app_update 600760 -beta beta validate +quit
+
+ 
+ ./rocketstation_DedicatedServer.exe -load EkimDed2 Europa2 -settingspath "C:\Users\ekim\Documents\Stationeers\mycustomsettings.xml" -settings ServerName "EkimDedi" StartLocalHost true ServerVisible true ServerPassword dedagain ServerMaxPlayers 5 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+  ./rocketstation_DedicatedServer.exe -load EkimDedi2-Europa Europa2 settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerPassword dedagain ServerMaxPlayers 5 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+./rocketstation_DedicatedServer.exe -load Europa1-3 Europa2 -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerPassword dedagain ServerMaxPlayers 5 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+    
+
+------------- LOAD LATEST _------------
+./rocketstation_DedicatedServer.exe -loadlatest loulan -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerPassword dedagain ServerMaxPlayers 5 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+2022-06-20 11:43:19
+save: Game Saved: C:\steamcmd\steamapps\common\Stationeers Dedicated Server\saves\Europa1-2
+
+2022-06-20 11:52:11
+save Europa1-3 
+
+--- New Mars ---
+./rocketstation_DedicatedServer.exe -new Ekim-Mars1 Mars -settings ServerName DedAgain StartLocalHost true ServerVisible true ServerPassword dedagain ServerMaxPlayers 5 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+
+./rocketstation_DedicatedServer.exe -load "Mars Escape" Mars -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerPassword dedagain ServerMaxPlayers 5 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+2022-06-23 23:10:51
+./rocketstation_DedicatedServer.exe -new loulan -settings ServerName DedAgain StartLocalHost true ServerVisible true ServerPassword dedagain ServerMaxPlayers 5 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+save Ekim-Loulan1
+./rocketstation_DedicatedServer.exe -load Ekim-Loulan1 loulan -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerPassword dedagain ServerMaxPlayers 5 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+2022-06-26 17:07:57
+AT-7274 - rando busy person 
+
+ save Ekim-Loulan3
+./rocketstation_DedicatedServer.exe -load Ekim-Loulan3 loulan -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerPassword dedagain ServerMaxPlayers 5 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+2022-06-27 08:48:25
+ save Ekim-Loulan4
+./rocketstation_DedicatedServer.exe -load Ekim-Loulan4 loulan -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerMaxPlayers 5 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+2022-06-27 12:23:35
+Loulan5-Boom 
+
+./rocketstation_DedicatedServer.exe -load Loulan5-Boom loulan -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerMaxPlayers 5 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+
+2022-06-27 12:30:20
+save Ekim-Loulan6
+./rocketstation_DedicatedServer.exe -load Ekim-Loulan6 loulan -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerMaxPlayers 5 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+2022-06-27 14:35:12
+save  EKim-Loulan7  
+
+Pcodeman - joins
+
+2022-06-27 14:57:02
+save Ekim-Loulan8 
+
+./rocketstation_DedicatedServer.exe -load Ekim-Loulan8 loulan -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerMaxPlayers 5 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+2022-06-27 16:18:29
+./rocketstation_DedicatedServer.exe -load Europa1-2 Europa2 -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerMaxPlayers 5 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+2022-06-27 17:11:16
+-- Dinner
+save Europa1-3 
+./rocketstation_DedicatedServer.exe -load Europa1-3 Europa2 -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerMaxPlayers 5 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+
+2022-06-28 17:02:18
+save Europa1-3 
+
+2022-06-28 18:11:09
+save Europa1-4 
+Rando MP 
+./rocketstation_DedicatedServer.exe -load Europa1-4 Europa2 -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerMaxPlayers 5 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+2022-06-28 19:02:00
+save Europa1-5 
+
+2022-06-28 20:32:52
+save Europa1-6
+./rocketstation_DedicatedServer.exe -load Europa1-6 Europa2 -settings ServerName EkimsDed StartLocalHost true ServerVisible false ServerMaxPlayers 8 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+2022-06-28 21:24:57
+save Europa1-6
+
+2022-06-29 08:28:12
+save Europa1-7 
+./rocketstation_DedicatedServer.exe -load Europa1-7 Europa2 -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerMaxPlayers 8 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+2022-06-29 13:47:34
+- restart 
+./rocketstation_DedicatedServer.exe -load Europa1-7 Europa2 -settings ServerName EkimsDed StartLocalHost true ServerVisible false ServerMaxPlayers 8 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+2022-06-29 17:32:32
+deleted  robots and CommsMotherboard 
+./rocketstation_DedicatedServer.exe -load Europa1-7 Europa2 -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerMaxPlayers 8 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+2022-06-29 22:09:14
+server clagged
+
+save Europa1-8
+./rocketstation_DedicatedServer.exe -load Europa1-8 Europa2 -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerMaxPlayers 8 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+2022-06-29 22:56:29
+seems OK 
+save Europa1-9
+./rocketstation_DedicatedServer.exe -load Europa1-9 Europa2 -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerMaxPlayers 8 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+2022-06-29 23:24:32
+Elmo  in game fixing  GFG 
+some  alarming pipe noises
+Console SPAM from paint?
+--- > lockups with robot bodies? <---- ?
+- deleted robot corpses from save file 
+  - this seemed to fix the 'Client goes to 100% CPU' thing 
+  - theory: undead robots == Kraken bait :-)
+  they get stuck in a wall and the physics seems to bug out 
+  also robots dont 'go away' like humans do, hence the save file edit 
+save Europa1-9
+
+2022-06-30 08:28:08
+- dropped new incremental save 
+- quit server 
+- restart server 
+save Europa1-10
+./rocketstation_DedicatedServer.exe -load Europa1-10 Europa2 -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerMaxPlayers 8 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+2022-06-30 08:40:29
+---> edit save file to delete dead robots
+- re-start server 
+- test 
+- still getting console SPAM
+  - if I can figure out which 'things' are missing these properies (below) then I can just re-paint 'em or delete 'em  
+  <color=#0099bc><b>DOTWEEN Ôû║ </b></color>This material doesn't have a 75 property ID
+  <color=#0099bc><b>DOTWEEN Ôû║ </b></color>This material doesn't have a 68 property ID
+- server is back up/up 
+- save Europa1-10
+
+2022-06-30 12:34:17
+-drop a random save
+save Europa1-10
+
+2022-06-30 13:06:38
+---> not being advertised -- stopped after a few hours overnight?
+- server still running, but no-one else can join
+- restart fixes it 
+- I think there might be two people in there... 
+-drop a random save
+
+save Europa1-11 
+- restart server ??
+./rocketstation_DedicatedServer.exe -load Europa1-11 Europa2 -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerMaxPlayers 8 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+
+2022-06-30 14:20:16
+- drop a random save
+save Europa1-11
+
+
+2022-06-30 14:52:30
+-drop a  rando save
+save Europa1-12 
+- restart 
+./rocketstation_DedicatedServer.exe -load Europa1-12 -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerMaxPlayers 8 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+--- I fuckecd thjis up I thimnk - map wiped
+
+
+- looking for last good AutoSave 
+./rocketstation_DedicatedServer.exe -load Autosave_0 Europa2 -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerMaxPlayers 8 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+2022-06-30 15:19:28
+drop a rando INCREMENTAL save 
+save Europa1-12 
+---> interesting - console / colour SPAM has stopped.... 
+things have been removed, maybe it was a   'thing' that was knackered..... 
+
+2022-06-30 15:31:08
+- the 1st new autosave adds the 'SaveInterval 600' to the filename
+but only once  
+
+2022-06-30 15:27:36
+- I'm running this on a POTATO..... 
+
+15:24:55: NoResources
+> no free events for message in the pool
+no free events for message in the pool
+no free events for message in the pool
+15:24:55: NoResources
+> no free events for message in the pool
+15:24:55: NoResources
+> no free events for message in the pool
+no free events for message in the pool
+no free events for message in the pool
+no free events for message in the pool
+15:24:55: NoResources
+> no free events for message in the pool
+15:24:55: NoResources
+> no free events for message in the pool
+no free events for message in the pool
+<<SNIP>>
+no free events for message in the pool
+15:24:55: NoResources
+> no free events for message in the pool
+15:24:55: NoResources
+> no free events for message in the pool
+no free events for message in the pool
+no free events for message in the pool
+no free events for message in the pool
+15:24:55: NoResources
+> no free events for message in the pool
+15:24:55: NoResources
+> no free events for message in the pool
+no free events for message in the pool
+
+2022-06-30 15:35:57
+- silly Unity click  through window issues
+(the same as KSP still has after 11 years! - sooo... yeah.... good luck fixing that.... :-)
+
+
+2022-06-30 16:04:51
+--> can't drop diconnected player bodies 
+- have to wait for decay 
+- robots don't decay, so you're kind of stuck and have to re-log 
+
+
+2022-06-30 17:02:04
+drop a rando save 
+save Europa1-13
+./rocketstation_DedicatedServer.exe -load Europa1-13 -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerMaxPlayers 8 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+2022-06-30 17:18:35
+log out to check server visibility 
+- automate this ?
+ 
+
+ 2022-06-30 17:26:45
+ - Trader added 
+ - lots of console errors 
+ - drop a new save and go to work, so we have a late save point, that is only slightly dodgy 
+ save Europa1-14 
+
+ 2022-06-30 22:51:20
+  save Europa1-14 
+
+2022-07-01 08:29:39 (UTC+12)
+- server jammed as of approx 02:45 (NZSTT)
+- investigating 
+ save Europa1-15 
+ --ooh it's rreally sad. it's having trouble quitting the server
+- killed powershell window
+- re-started server 
+- looks ok. 
+ ./rocketstation_DedicatedServer.exe -load Europa1-15 -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerMaxPlayers 8 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+2022-07-01 11:58:48 (UTC+12)
+-drop a rando save
+save Europa1-15
+
+2022-07-01 13:42:05
+-drop a rando save
+(in office, away from machine, but RDP'd in)
+- I'm not sure how to check if the server is still being advertised 
+- TODO: snarf the traffic, see where it's going 
+    - lear about Game 'Master Servers'
+save Europa1-16 
+
+----wishlist----
+users - show clients who are connected 
+ping ? - check if the Master server can see the client 
+
+
+2022-07-01 14:26:57
+- Discord message - server not being advertised 
+save Europa1-16 
+
+-restart server
+ ./rocketstation_DedicatedServer.exe -load Europa1-16 -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerMaxPlayers 8 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+2022-07-01 17:29:47
+still running 
+Henry has cosmetic bug where his glasses are standing out from his face 
+jetpack looks like it's on his chest
+- fix -take them off, put them on again 
+
+2022-07-01 17:48:21
+drop a rando save
+save Europa1-16 
+
+2022-07-01 18:13:56
+GFG  -  added large Transformer 
+- drop a rando save
+save Europa1-17
+
+2022-07-01 18:32:43
+- server  borked 
+save Europa1-18
+ ./rocketstation_DedicatedServer.exe -load Europa1-18 -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerMaxPlayers 8 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+-restart server
+
+2022-07-01 18:39:54
+- server up 
+- can't reach master server 
+<color=#0099bc><b>DOTWEEN Ôû║ </b></color>This material doesn't have a 75 property ID
+<color=#0099bc><b>DOTWEEN Ôû║ </b></color>This material doesn't have a 68 property ID
+18:41:03: Cannot ping meta server: Issue with current session: {
+  "SessionId": 11917,
+  "Name": "EkimsDed",
+  "Password": false,
+  "Version": "0.2.3396.16649",
+  "Address": "175.111.102.125",
+  "Checksum": "f2c1f7303ef70c5f6165f950de2a38b4934a69fc5d6609c32999eedd75ab3ae9",
+  "Port": "27016",
+  "Players": 0,
+  "MaxPlayers": 8,
+  "UpTime": 79965,
+  "MapName": "Europa2",
+  "Latency": 0,
+  "Type": 1
+}
+> System.Exception: Issue with current session: {
+  "SessionId": 11917,
+  "Name": "EkimsDed",
+  "Password": false,
+  "Version": "0.2.3396.16649",
+  "Address": "175.111.102.125",
+  "Checksum": "f2c1f7303ef70c5f6165f950de2a38b4934a69fc5d6609c32999eedd75ab3ae9",
+  "Port": "27016",
+  "Players": 0,
+  "MaxPlayers": 8,
+  "UpTime": 79965,
+  "MapName": "Europa2",
+  "Latency": 0,
+  "Type": 1
+}
+  at Assets.Scripts.Networking.NetManager.PingServerLoop () [0x00141] in <6de58c2a83764d9c9480754ebd54aa82>:0
+18:41:03: Unregistering game session with master server.
+> <color=#0099bc><b>DOTWEEN Ôû║ </b></color>This material doesn't have a 75 property ID
+
+
+
+- kick it in the guts Trev!
+
+ ./rocketstation_DedicatedServer.exe -load Europa1-18 -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerMaxPlayers 8 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+2022-07-01 18:49:00
+- up/down dicey - clients no move - network unsychronized
+
+- kick it in the guts Trev!
+ ./rocketstation_DedicatedServer.exe -load Europa1-18 -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerMaxPlayers 8 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+2022-07-01 18:54:15
+unabble to interact with anything 
+ingonts switches etc 
+loading Autosave_1
+./rocketstation_DedicatedServer.exe -load Autosave_1 -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerMaxPlayers 8 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+2022-07-01 18:56:44
+Working! 
+save Europa1-19
+
+2022-07-01 20:03:24
+-  NEW PERSON 
+drop a new save
+save Europa1-19
+
+2022-07-01 20:17:21
+drop a new save
+save Europa1-19
+
+2022-07-01 20:58:09
+rendering issues 
+drop a new save
+save Europa1-20 
+./rocketstation_DedicatedServer.exe -load Europa1-20 -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerMaxPlayers 8 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+- server back up 
+save Europa1-20 
+
+2022-07-01 22:03:37 
+Ekim is buggered 
+drop a new save
+save Europa1-20 
+
+2022-07-01 22:29:17
+Logged 
+
+2022-07-01 23:35:26
+not being advertised
+save Europa1-21
+restarting
+./rocketstation_DedicatedServer.exe -load Europa1-21 -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerMaxPlayers 8 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+2022-07-01 23:38:56
+server visible 
+testing 
+working!
+
+----------------------------------------------------------------
+<hmmm class="
+<color=#0099bc><b>DOTWEEN Ôû║ </b></color>This material doesn't have a 68 property ID
+23:42:16: Process verify player 76561198386747090
+23:42:16: Adding player to server: pippin2006 | 76561198386747090
+23:42:16: Pause on Player connect
+23:42:16: Game is Paused
+23:42:16: [EXCEPTION] invalidoperationexception: collection was modified; enumeration operation may not execute.
+23:42:16: [EXCEPTION] invalidoperationexception: collection was modified; enumeration operation may not execute.
+> InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[T].MoveNextRare () [0x00013] in <7b935204f5ff4bcab44b3b0ebca330bf>:0
+  at System.Collections.Generic.List`1+Enumerator[T].MoveNext () [0x0004a] in <7b935204f5ff4bcab44b3b0ebca330bf>:0
+  at Assets.Scripts.Atmospherics.AtmosphericsManager.SerialiseOnJoin (Assets.Scripts.Networking.RocketBinaryWriter writer) [0x00071] in <6de58c2a83764d9c9480754ebd54aa82>:0
+  at Assets.Scripts.NetworkServer.PackageJoinData () [0x000af] in <6de58c2a83764d9c9480754ebd54aa82>:0
+  at Assets.Scripts.NetworkServer.VerifyConnection (Assets.Scripts.Networking.NetworkMessages+VerifyPlayer msg) [0x000ee] in <6de58c2a83764d9c9480754ebd54aa82>:0
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+Cysharp.Threading.Tasks.UniTaskScheduler:PublishUnobservedTaskException(Exception)
+Assets.Scripts.<VerifyConnection>d__37:MoveNext()
+Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder:Start(<VerifyConnection>d__37&)
+Assets.Scripts.NetworkServer:VerifyConnection(VerifyPlayer)
+Assets.Scripts.Networking.VerifyPlayer:Process()
+NetworkBase:DeserializeReceivedData(RocketBinaryReader)
+Assets.Scripts.Networking.NetworkManager:HandleGeneralTraffic(Int32)
+Assets.Scripts.Networking.NetworkManager:HandleDataEvent(Int32, Int32)
+Assets.Scripts.Networking.NetworkManager:ReceiveEvents()
+Assets.Scripts.Networking.NetworkManager:Update()
+<<SNIP>>
+Log: connection {3} has been disconnected by timeout; address {::ffff:113.199.8.171:27017} time {378422}, last rec time {376040} rtt {285} timeout {2000}
+23:43:42: [ERROR] unable to disconnect bytearrayclient 3 as they are not found!
+23:43:42: [ERROR] unable to disconnect bytearrayclient 3 as they are not found!
+> Unable to disconnect byteArrayClient 3 as they are not found!
+ 
+"
+2022-07-01 23:45:18
+my client has frozen when pippin2006 tried to join and then dropped out 
+- restarting server 
+
+
+2022-07-02 00:10:54
+BBOOM !
+FIRE! 
+
+copied autosave from 11:24pm 
+Autosave_0-pre-boom
+- PLAY ON! 
+
+Montugar
+pippin2006 
+Elmo
+Windsinger
+Shutnik 
+
+2022-07-02 00:54:24
+newbie
+00:54:09: Client: Shazzkaika (76561198059466773). Connected. 828259 / 828259
+00:54:09: Client Shazzkaika (76561198059466773) Dequeued
+drop a new save 
+save Europa1-22
+
+2022-07-02 00:59:16
+newbie
+Makkroppanto 
+
+
+Cryo unit - need to press Q twice to exit  
+
+2022-07-02 01:07:19
+going to bed 
+drop a new save 
+save Europa1-22
+
+Cant drink while in a Chair 
+
+
+2022-07-02 08:07:50
+- morning.... 
+- check server 
+- advertised still 
+- shows zero online, but 4 are in server 
+ - all going well 
+ 2022-07-02 08:32:30
+ drop a new save
+ save Europa1-22
+
+ 2022-07-02 10:45:30
+ still going well 
+ save Europa1-22
+ - savegame at 385000 lines !
+
+ 2022-07-02 10:53:00
+ BOOM! goes the furnace!
+ - Fire Extinghuisres spit console errors when activated (but they work)
+ Messsages should only be processed on the server. Message: (Assets.Scripts.Networking.ExtinguisherMessage) Assets.Scripts.Networking.ExtinguisherMessage
+
+ - chat needs to be front and centre - I keep missing in game messages 
+
+ 2022-07-02 12:45:29
+ server still up, but show zero joined - this is incorrect
+
+  2022-07-02 12:45:29
+ server still up, but show zero joined - eh, whatever 
+
+ save Europa1-22
+
+2022-07-02 14:25:53
+ save Europa1-22
+
+2022-07-02 15:29:40
+jediraper joins...
+save Europa1-22
+
+2022-07-02 18:36:11
+off to club, drop an incremental save 
+save Europa1-23
+
+2022-07-02 23:03:59
+-back home 
+server has been up/up almost 24 hours !
+
+oooh, 'no brainwas found with teh id xxxxxx after 60 seconds of searching'
+I spoke to soon 
+-client hung, 
+save Europa1-24 
+world.xml == 408319 lines 
+    - save is good 
+quit server 
+
+v23:06:54: > quit
+> <color=#0099bc><b>DOTWEEN Ôû║ </b></color>This material doesn't have a 75 property ID
+<color=#0099bc><b>DOTWEEN Ôû║ </b></color>This material doesn't have a 68 property ID
+<color=#0099bc><b>DOTWEEN Ôû║ </b></color>This material doesn't have a 75 property ID
+<color=#0099bc><b>DOTWEEN Ôû║ </b></color>This material doesn't have a 68 property ID
+<color=#0099bc><b>DOTWEEN Ôû║ </b></color>This material doesn't have a 75 property ID
+<color=#0099bc><b>DOTWEEN Ôû║ </b></color>This material doesn't have a 68 property ID
+<color=#0099bc><b>DOTWEEN Ôû║ </b></color>This material doesn't have a 75 property ID
+<color=#0099bc><b>DOTWEEN Ôû║ </b></color>This material doesn't have a 68 property ID
+23:06:54: exiting game
+> Log: connection {1} has been disconnected by timeout; address {::ffff:192.168.1.11:27017} time {84027842}, last rec time {84025765} rtt {22} timeout {2000}
+Setting up 2 worker threads for Enlighten.
+<color=#0099bc><b>DOTWEEN Ôû║ </b></color>This material doesn't have a 75 property ID
+<color=#0099bc><b>DOTWEEN Ôû║ </b></color>This material doesn't have a 68 property ID
+Log: connection {2} has been disconnected by timeout; address {::ffff:75.142.66.100:27017} time {84051378}, last rec time {84049345} rtt {237} timeout {2000}
+<color=#0099bc><b>DOTWEEN Ôû║ </b></color>This material doesn't have a 75 property ID
+<color=#0099bc><b>DOTWEEN Ôû║ </b></color>This material doesn't have a 68 property ID
+<color=#0099bc><b>DOTWEEN Ôû║ </b></color>This material doesn't have a 75 property ID
+<color=#0099bc><b>DOTWEEN Ôû║ </b></color>This material doesn't have a 68 property ID
+<color=#ff7337><color=#0099bc><b>DOTWEEN Ôû║ </b></color> SAFE MODE Ôû║</color> DOTween's safe mode captured 8 errors. This is usually ok (it's what safe mode is there for) but if your game is encountering issues you should set Log Behaviour to Default in DOTween Utility Panel in order to get detailed warnings when an error is captured (consider that these errors are always on the user side).
+- 4 missing target or field errors
+- 4 startup errors
+
+----looks like it's hung on quitting 
+-killing server 
+./rocketstation_DedicatedServer.exe -load Europa1-24 -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerMaxPlayers 8 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+killed powershell window
+2022-07-02 23:10
+-restarting 
+2022-07-02 23:12:25
+server is up 
+- testing 
+- we're up/up and good to go 
+
+2022-07-03 00:46:41
+theredfoox joins 
+save Europa1-24 
+
+2022-07-03 01:14:51
+fiksils joins
+
+2022-07-03 01:38:46
+bed 
+save Europa1-25 
+
+2022-07-03 08:59:13
+-stagger - coffee
+check on the beautiful chaos
+- server up but not advertising 
+- new incremental save
+save Europa1-26
+
+quit
+restart
+./rocketstation_DedicatedServer.exe -load Europa1-26 -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerMaxPlayers 8 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+2022-07-03 09:05:50
+- server is back up/up 
+- on 1st join, character died, I hit respawn, but got stuck at 'black' screen and had to back out, re-join 
+- ok on 2nd join 
+
+-- spawn points aren't 'sticky' after server re-load 
+
+2022-07-03 12:30:17
+my client is lagging - prob too many processes - started when I started OBS, and fecking 'NVIDIA Experience' always wants to stick it's oar in... 
+ 8 FPS 
+
+- advanced furnace is working like a charm
+- can see itemsbeing smelted, ore count etc. 
+save Europa1-26
+
+2022-07-03 14:51:52
+a bit laggy - going to re-start my client 
+world.xml 414798 lines
+save Europa1-26
+
+
+2022-07-03 16:05:15
+save Europa1-26
+
+2022-07-03 16:23:30
+save Europa1-26
+
+2022-07-03 17:24:37
+furnace  
+save Europa1-26
+
+2022-07-03 19:24:19
+Ekim is going to FIX! the furnace! 
+save Europa1-26
+
+2022-07-03 19:48:19
+Vanion is falling thru world on join 
+save Europa1-27
+
+- server restart
+./rocketstation_DedicatedServer.exe -load Europa1-27 -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerMaxPlayers 8 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+2022-07-03 19:54:19
+server up
+
+
+2022-07-03 21:13:25
+- log off
+save Europa1-27

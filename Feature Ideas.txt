@@ -1,0 +1,59 @@
+---- Feature Ideas  ----
+2022-07-03 21:18:31
+- a random list of feature ideas and things -
+
+-- IC code gets automagically saved in a dir (for when you forget to save it in the Library side-bar)
+    - use case - code gets overwritten and no-one knows who wrote it :-) 
+
+-- make spawn points 'sticky' after a server re-load ?
+ - our resident hermit has to travel to their 'Sekrit Lair' when the re-log 
+
+
+-- Chat popup 'in yer face'
+
+- an API so I can make my flashy lights go off when things get dicey
+    (I am using WLED on an ESP32 chip, the automation is easy, I just need to find somewhere to hook it into, in game)
+
+- of course, the 'elcetrical switch box' new part with screws on it so you ccan run indepedant power feeds thru one frame and make things look tidier
+    - bonus effect, people will fuck it up and cause mayhem!
+
+ chunk ownership, personal security cards, anti-griff, a reboot bot that reloads the last autosave when the thing dies.
+Montugar: a filter so clients do get the dev spam messages
+
+
+] LAJ-47FC9 (they/them): Logic gates.
+[13:29] LAJ-47FC9 (they/them): It'd make advanced logic more feasible without forcing people into IC10 or a million logic gates for something as simple as three-point light control.
+[13:31] LAJ-47FC9 (they/them): Oh oh
+[13:31] LAJ-47FC9 (they/them): two or more wall corners in the same small grid space
+[13:32] LAJ-47FC9 (they/them): vending machines should have built-in stackers
+[13:35] LAJ-47FC9 (they/them): and the switch on vending machines should be on the front
+
+
+
+---- long standing requests ----
+- duct tape and cable are 'tools' and can go in a tool slot in a tool belt
+ is there any chance of making spray pain the same ? 
+ It'd be a tiny liitle QoL improvement (MK2 tool belkt as the 'graffiti belt')
+ e
+
+--- integration ideas ----
+write some scrript things to poll the master server (occasionally) and check 
+    a: if it's visible 
+    and 
+    b: how many people are connected
+    [c: is the connected count true ? ]
+- post up/downs to an announce channel in Discord 
+
+---- Troll ideas ----
+
+Maze of Doom 
+- player takes wrong turn, gets;
+    transported to start
+    gets their battery nicked and THAT gets transported somewhere for them to find
+    open their faceplate at random 
+
+
+- trig and auto-on /off for lights / machines etc 
+
+gas/temp/player/weather/power sensords feeding monitors / indicators in a CENTRAL CONTROL ROOM!!! 
+
