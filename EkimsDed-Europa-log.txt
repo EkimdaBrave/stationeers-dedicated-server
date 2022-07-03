@@ -294,7 +294,7 @@ save Europa1-18
   "Name": "EkimsDed",
   "Password": false,
   "Version": "0.2.3396.16649",
-  "Address": "175.111.102.125",
+  "Address": "1.1.1.1",
   "Checksum": "f2c1f7303ef70c5f6165f950de2a38b4934a69fc5d6609c32999eedd75ab3ae9",
   "Port": "27016",
   "Players": 0,
@@ -309,7 +309,7 @@ save Europa1-18
   "Name": "EkimsDed",
   "Password": false,
   "Version": "0.2.3396.16649",
-  "Address": "175.111.102.125",
+  "Address": "1.1.1.1",     
   "Checksum": "f2c1f7303ef70c5f6165f950de2a38b4934a69fc5d6609c32999eedd75ab3ae9",
   "Port": "27016",
   "Players": 0,
@@ -637,3 +637,25 @@ Serverr not being advertised
 ./rocketstation_DedicatedServer.exe -load Europa1-28 -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerMaxPlayers 8 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
 - server up
 - server visible 
+
+2022-07-04 09:06:16
+- interesting one: 
+- when I ALT-TAB out of the game, and then ALT-TAB back in, sometimes the GUI ghet confused and I have to hit TAB and TAB again to get focus bnack oin the game window, so I can move again... 
+ - "keybboard input goes to wrong place when I ALT-TAB out and back in again " 
+  - fixed bby hitting TAB, then TAB again in game window 
+  
+
+2022-07-04 09:20:48
+  - can't interact with anything - re-starting again
+  ./rocketstation_DedicatedServer.exe -load Europa1-28 -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerMaxPlayers 8 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+- restarted 
+2022-07-04 09:22:20
+- server up
+- CAN interact with 'things' again 
+
+- VPS in US West Coast is ready - prepping to move game to that 
+
+- I'm getting 24FPS !
+ - last night it was down to abbuot 8FPS
+ 
