@@ -2,16 +2,8 @@ EkimsDed-Europa
 
  c:\steamcmd\steamcmd.exe +login anonymous +app_update 600760 -beta beta validate +quit
 
- 
- ./rocketstation_DedicatedServer.exe -load EkimDed2 Europa2 -settingspath "C:\Users\ekim\Documents\Stationeers\mycustomsettings.xml" -settings ServerName "EkimDedi" StartLocalHost true ServerVisible true ServerPassword dedagain ServerMaxPlayers 5 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
-
-  ./rocketstation_DedicatedServer.exe -load EkimDedi2-Europa Europa2 settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerPassword dedagain ServerMaxPlayers 5 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
-
-./rocketstation_DedicatedServer.exe -load Europa1-3 Europa2 -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerPassword dedagain ServerMaxPlayers 5 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
-    
-
 ------------- LOAD LATEST _------------
-./rocketstation_DedicatedServer.exe -loadlatest loulan -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerPassword dedagain ServerMaxPlayers 5 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+./rocketstation_DedicatedServer.exe -loadlatest Europa2 -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerPassword dedagain ServerMaxPlayers 5 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
 
 2022-06-20 11:43:19
 save: Game Saved: C:\steamcmd\steamapps\common\Stationeers Dedicated Server\saves\Europa1-2
@@ -21,7 +13,6 @@ save Europa1-3
 
 --- New Mars ---
 ./rocketstation_DedicatedServer.exe -new Ekim-Mars1 Mars -settings ServerName DedAgain StartLocalHost true ServerVisible true ServerPassword dedagain ServerMaxPlayers 5 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
-
 
 ./rocketstation_DedicatedServer.exe -load "Mars Escape" Mars -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerPassword dedagain ServerMaxPlayers 5 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
 
@@ -43,9 +34,7 @@ AT-7274 - rando busy person
 
 2022-06-27 12:23:35
 Loulan5-Boom 
-
 ./rocketstation_DedicatedServer.exe -load Loulan5-Boom loulan -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerMaxPlayers 5 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
-
 
 2022-06-27 12:30:20
 save Ekim-Loulan6
@@ -53,14 +42,14 @@ save Ekim-Loulan6
 
 2022-06-27 14:35:12
 save  EKim-Loulan7  
-
 Pcodeman - joins
 
 2022-06-27 14:57:02
 save Ekim-Loulan8 
-
 ./rocketstation_DedicatedServer.exe -load Ekim-Loulan8 loulan -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerMaxPlayers 5 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+- FPS tanked, but that was expected. No biggie.
 
+-- Put Europa on the internet - no password --
 2022-06-27 16:18:29
 ./rocketstation_DedicatedServer.exe -load Europa1-2 Europa2 -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerMaxPlayers 5 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
 
@@ -68,7 +57,6 @@ save Ekim-Loulan8
 -- Dinner
 save Europa1-3 
 ./rocketstation_DedicatedServer.exe -load Europa1-3 Europa2 -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerMaxPlayers 5 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
-
 
 2022-06-28 17:02:18
 save Europa1-3 
@@ -155,11 +143,9 @@ save Europa1-11
 - restart server ??
 ./rocketstation_DedicatedServer.exe -load Europa1-11 Europa2 -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerMaxPlayers 8 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
 
-
 2022-06-30 14:20:16
 - drop a random save
 save Europa1-11
-
 
 2022-06-30 14:52:30
 -drop a  rando save
@@ -168,15 +154,12 @@ save Europa1-12
 ./rocketstation_DedicatedServer.exe -load Europa1-12 -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerMaxPlayers 8 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
 --- I fuckecd thjis up I thimnk - map wiped
 
-
 - looking for last good AutoSave 
 ./rocketstation_DedicatedServer.exe -load Autosave_0 Europa2 -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerMaxPlayers 8 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
 
 2022-06-30 15:19:28
 drop a rando INCREMENTAL save 
 save Europa1-12 
----> interesting - console / colour SPAM has stopped.... 
-things have been removed, maybe it was a   'thing' that was knackered..... 
 
 2022-06-30 15:31:08
 - the 1st new autosave adds the 'SaveInterval 600' to the filename
@@ -185,6 +168,7 @@ but only once
 2022-06-30 15:27:36
 - I'm running this on a POTATO..... 
 
+-- on some? client joins --
 15:24:55: NoResources
 > no free events for message in the pool
 no free events for message in the pool
@@ -217,15 +201,13 @@ no free events for message in the pool
 no free events for message in the pool
 
 2022-06-30 15:35:57
-- silly Unity click  through window issues
+- misc silly Unity click  through window issues
 (the same as KSP still has after 11 years! - sooo... yeah.... good luck fixing that.... :-)
 
-
 2022-06-30 16:04:51
---> can't drop diconnected player bodies 
+--> can't drop disconnected player bodies (inconsistent - I am able to drop bodies most of the time, but not robots?)
 - have to wait for decay 
 - robots don't decay, so you're kind of stuck and have to re-log 
-
 
 2022-06-30 17:02:04
 drop a rando save 
@@ -235,7 +217,7 @@ save Europa1-13
 2022-06-30 17:18:35
 log out to check server visibility 
 - automate this ?
- 
+
 
  2022-06-30 17:26:45
  - Trader added 
@@ -636,3 +618,22 @@ server up
 2022-07-03 21:13:25
 - log off
 save Europa1-27
+
+
+2022-07-04 07:38:43
+server not advertising
+save Europa1-28 
+- restart server 
+
+./rocketstation_DedicatedServer.exe -load Europa1-27 -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerMaxPlayers 8 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+2022-07-04 08:52:45
+Serverr not being advertised 
+- loaded the wrong save anyway...
+- moar coffee
+- take it down 
+- run an update (to check) 
+- restart 
+./rocketstation_DedicatedServer.exe -load Europa1-28 -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerMaxPlayers 8 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+- server up
+- server visible 
