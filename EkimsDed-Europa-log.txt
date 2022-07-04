@@ -669,3 +669,9 @@ re-starting server
 server is up/up 
 - testing
 - working
+
+2022-07-04 17:10:23
+Vanion confirms that SLEEPERS WORK ACROSS SERVER RESTARTS 
+
+Framerate is OK with just 1-2 players 
+now we have 6 (1 disconneted robot) my frame-rate is 8-13 FPS
