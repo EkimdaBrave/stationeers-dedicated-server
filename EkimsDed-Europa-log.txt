@@ -659,3 +659,13 @@ Serverr not being advertised
 - I'm getting 24FPS !
  - last night it was down to abbuot 8FPS
  
+ 2022-07-04 15:32:48
+ server not being advertised 
+ save Europa1-28 
+  ./rocketstation_DedicatedServer.exe -load Europa1-28 -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerMaxPlayers 8 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+2022-07-04 15:35:54
+re-starting server 
+server is up/up 
+- testing
+- working
