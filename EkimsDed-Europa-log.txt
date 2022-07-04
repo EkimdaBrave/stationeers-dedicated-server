@@ -691,3 +691,24 @@ re-start
 up/up 
 
 Things count 8563
+
+2022-07-04 21:41:38
+Rev26 is falling thru the world 
+does the kick command work ?
+kick Rev26 
+nope  - Invalid client id
+
+2022-07-04 22:13:07
+drop an incremental save
+save Europa1-29 
+Revs ID 
+kick 76561198059711687
+nope 
+2022-07-04 22:20:40
+server restart 
+save Europa1-29 
+quit 
+./rocketstation_DedicatedServer.exe -load Europa1-29 -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerMaxPlayers 8 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+2022-07-04 22:23:18
+coming up
+up/up 
