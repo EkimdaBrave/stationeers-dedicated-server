@@ -781,8 +781,29 @@ save Europa1-31
 stop server
 
 2022-07-05 08:16:20
-deleted Erv's brain from save-file 
+deleted Rev's brain from save-file 
 jacob's was not there 
 
 - restarting 
 ./rocketstation_DedicatedServer.exe -load Europa1-30 -noclear -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerMaxPlayers 8 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+2022-07-05 09:29:25
+Rev still can't join
+- going to delete him again, and delete all the robots 
+
+2022-07-05 09:39:49
+no go 
+going to laod an old save to test 
+./rocketstation_DedicatedServer.exe -load Europa1-29 -noclear -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerMaxPlayers 8 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+- yep - this save is fine 
+ - "right before I started fallijg throught he world " - ays Rev 
+
+2022-07-05 09:58:34
+- deleted seven robots from world.xml (Europa1-31)
+
+2022-07-05 10:00:38
+restart server  
+./rocketstation_DedicatedServer.exe -load Europa1-31 -noclear -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerMaxPlayers 8 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+- server up on latest save 
+- I can connect successfully 
