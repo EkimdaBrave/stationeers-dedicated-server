@@ -764,3 +764,25 @@ restarting
 -ready for testing 
 
 ./rocketstation_DedicatedServer.exe -load Europa1-30 -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerMaxPlayers 8 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+2022-07-05 06:54:05
+updoot to .16665 
+didn't do an inccremental save -fingers crossed. ...
+server coming bback up now
+you;llneed to be on BETA branch 
+
+- Added -noclear launch flag for dedicated server to skip clearing so you can see any errors before "ready"
+
+2022-07-05 08:07:29
+jacob and Rev's charracters are having trouble spawning inproperly.
+
+2022-07-05 08:09:32
+save Europa1-31
+stop server
+
+2022-07-05 08:16:20
+deleted Erv's brain from save-file 
+jacob's was not there 
+
+- restarting 
+./rocketstation_DedicatedServer.exe -load Europa1-30 -noclear -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerMaxPlayers 8 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
