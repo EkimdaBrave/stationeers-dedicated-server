@@ -17,6 +17,8 @@
 - of course, the 'elcetrical switch box' new part with screws on it so you ccan run indepedant power feeds thru one frame and make things look tidier
     - bonus effect, people will fuck it up and cause mayhem!
 
+ - server restart ccountdown timeer for clients ?
+ 
  chunk ownership, personal security cards, anti-griff, a reboot bot that reloads the last autosave when the thing dies.
 Montugar: a filter so clients do get the dev spam messages
 

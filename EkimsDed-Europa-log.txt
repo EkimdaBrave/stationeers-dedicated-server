@@ -675,3 +675,19 @@ Vanion confirms that SLEEPERS WORK ACROSS SERVER RESTARTS
 
 Framerate is OK with just 1-2 players 
 now we have 6 (1 disconneted robot) my frame-rate is 8-13 FPS
+
+2022-07-04 18:38:36
+save Europa1-28 
+
+2022-07-04 19:05
+not being advertised
+save europa1-28
+
+2022-07-04 19:30:54
+quit 
+2022-07-04 19:31:06
+re-start 
+2022-07-04 19:32:19
+up/up 
+
+Things count 8563
