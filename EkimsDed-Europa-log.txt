@@ -739,3 +739,28 @@ good to go
 - back to moveing this server OFF THE POTATO! 
 2022-07-04 22:45:59
 
+2022-07-05 06:45:46
+server clagged - unable to inttterct, Rev keeps spwning in a frame-rate 
+save Europa1-30 
+quit 
+2022-07-05 06:47:18
+move REV to 10,10,10 Co0ords ? he is stuck in a frame when spawning in 
+
+--------------------------------------------------------------------
+      <HealthCurrent>0</HealthCurrent>
+      <ClientSteamId>76561198059711687</ClientSteamId>
+    </ThingSaveData>
+    <ThingSaveData xsi:type="StructureSaveData">
+      <ReferenceId>414320</ReferenceId>
+      <PrefabName>StructureCompositeWindowIron</PrefabName>
+      <WorldPosition>
+        <x>-10</x>
+        <y>10</y>
+        <z>10</z>
+      </WorldPosition>
+------------------------------------------------------------
+restarting 
+
+-ready for testing 
+
+./rocketstation_DedicatedServer.exe -load Europa1-30 -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerMaxPlayers 8 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
