@@ -838,3 +838,25 @@ Server is on 'main' or early access and is now version 0.2.3396.16665
 Client is on BETA and is version 0.2.3396.16665 
 I'm in, things are workingg 
 - server is up/up
+
+2022-07-05 18:17:23
+Some atmo caught fire in about 4 frames and won't go out
+spitting log errorsbuilt frames over it, still log spam
+
+drop an incremental save
+save Europa1-32 
+
+restart 
+./rocketstation_DedicatedServer.exe -load Europa1-32 -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerMaxPlayers 8 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+2022-07-05 18:19:19
+Coming up 
+up/up
+
+2022-07-05 18:30:26
+'can't interact' - restarting
+./rocketstation_DedicatedServer.exe -load Europa1-32 -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerMaxPlayers 8 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+2022-07-05 18:31:02
+Coming up 
+up/up 
+
