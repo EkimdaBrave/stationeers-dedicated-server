@@ -841,7 +841,8 @@ I'm in, things are workingg
 
 2022-07-05 18:17:23
 Some atmo caught fire in about 4 frames and won't go out
-spitting log errorsbuilt frames over it, still log spam
+spitting log errors
+built frames over it, still log spam
 
 drop an incremental save
 save Europa1-32 
@@ -860,3 +861,28 @@ up/up
 Coming up 
 up/up 
 
+2022-07-05 22:20:26
+I'd fiddled with client hydration settings and left them at 0
+I wonder if they are clamped to client settings, on server join 
+
+- I had a thought - check world.xml for MIPS code without a yield
+
+
+2022-07-05 22:25:31
+drop a save
+save Europa1-33
+
+2022-07-05 22:35:23
+going to hack MIPS code in world.xml 
+drop an incremental save
+save Europa1-34
+
+2022-07-05 22:49:57
+HAXED world.xml to add random yield statements 
+re-start 
+./rocketstation_DedicatedServer.exe -load Europa1-34 -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerMaxPlayers 8 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+Can't interact with things 
+
+2022-07-05 22:59:57
+restart - server back up/up and working 
