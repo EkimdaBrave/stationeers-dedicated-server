@@ -818,3 +818,23 @@ load Europa1-31
 
 2022-07-05 13:44:50
 server up/up - seems to be working OK again 
+
+2022-07-05 16:36:29
+-test - can't interact with things 
+loadlatest 
+./rocketstation_DedicatedServer.exe -loadlatest
+
+- Server is working and playable again 
+
+2022-07-05 17:02:31
+save Europa1-31
+c:\steamcmd\steamcmd.exe +login anonymous +app_update 600760 validate +quit
+./rocketstation_DedicatedServer.exe -load Europa1-31 -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerMaxPlayers 8 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+testing 
+version mis-match 
+2022-07-05 17:18:04
+Server is on 'main' or early access and is now version 0.2.3396.16665
+Client is on BETA and is version 0.2.3396.16665 
+I'm in, things are workingg 
+- server is up/up
