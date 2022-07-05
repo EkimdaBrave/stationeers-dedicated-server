@@ -807,3 +807,14 @@ restart server
 
 - server up on latest save 
 - I can connect successfully 
+
+2022-07-05 13:41:17
+logged in to check
+failed to spwan properly 1st time 
+nioticed IC10 code is not running
+unable to interact with things on 2nd login 
+-restart 
+load Europa1-31 
+
+2022-07-05 13:44:50
+server up/up - seems to be working OK again 
