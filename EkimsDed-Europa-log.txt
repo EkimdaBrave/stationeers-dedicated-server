@@ -946,3 +946,15 @@ quit
 ./rocketstation_DedicatedServer.exe -loadlatest -settings ServerName EkimsDed StartLocalHost true ServerVisible true UPNPEnabled false AutoSave true SaveInterval 600
 up/up 
 Thingcount 10000 +
+
+uh oh 
+Atmospheric exceptions
+got booted 
+quit server 
+took a backup of Autosave_0 as AutoSave_0-35 from 11:23 pm 
+restarting 
+./rocketstation_DedicatedServer.exe -loadlatest -settings ServerName EkimsDed StartLocalHost true ServerVisible true UPNPEnabled false AutoSave true SaveInterval 600
+server up, fingers crossed
+we're good (well, I'm in)
+sleep time
+
