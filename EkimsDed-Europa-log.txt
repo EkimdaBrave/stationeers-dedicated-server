@@ -956,5 +956,6 @@ restarting
 ./rocketstation_DedicatedServer.exe -loadlatest -settings ServerName EkimsDed StartLocalHost true ServerVisible true UPNPEnabled false AutoSave true SaveInterval 600
 server up, fingers crossed
 we're good (well, I'm in)
+Rev is back in
 sleep time
 
