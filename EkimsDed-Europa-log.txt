@@ -1,6 +1,6 @@
 EkimsDed-Europa
-
- c:\steamcmd\steamcmd.exe +login anonymous +app_update 600760 -beta beta validate +quit
+cd 'C:\steamcmd\steamapps\common\Stationeers Dedicated Server\'
+c:\steamcmd\steamcmd.exe +login anonymous +app_update 600760 -beta beta validate +quit
 
 ------------- LOAD LATEST _------------
 ./rocketstation_DedicatedServer.exe -loadlatest Europa2 -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerPassword dedagain ServerMaxPlayers 5 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
@@ -886,3 +886,45 @@ Can't interact with things
 
 2022-07-05 22:59:57
 restart - server back up/up and working 
+
+2022-07-06 00:17:10
+go to bed 
+drop a save 
+save Europa1-34
+
+2022-07-06 00:27:42
+made some sleepers - should have done that DAYS ago... wll remember for next time 
+save Europa1-34
+logout 
+
+2022-07-06 06:15:30
+server still running! 
+
+2022-07-06 14:56:44
+needs a re-start
+drop an inccremental save
+save Europa1-35 
+2022-07-06 14:57:38
+quit
+- seems to have hung on quit 
+<CTRL>-C doesn't seem to do anything 
+clobbered the powershell window
+
+./rocketstation_DedicatedServer.exe -load Europa1-35 -settings ServerName EkimsDed StartLocalHost true ServerVisible true UPNPEnabled false AutoSave true SaveInterval 600
+
+2022-07-06 15:01:59
+restarting 
+2022-07-06 15:02:54
+up/up - registered with master server 
+
+2022-07-06 16:51:34
+Home from work
+join server. I'm stuck in sleeper 
+all other clients frozen waiting for me to join.
+
+kill game, load latest autosave from 16:44
+./rocketstation_DedicatedServer.exe -loadlatest -settings ServerName EkimsDed StartLocalHost true ServerVisible true UPNPEnabled false AutoSave true SaveInterval 600
+2022-07-06 16:52:56
+starting 
+up/up 
+
