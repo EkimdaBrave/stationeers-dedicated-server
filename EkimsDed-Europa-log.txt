@@ -902,7 +902,7 @@ server still running!
 
 2022-07-06 14:56:44
 needs a re-start
-drop an inccremental save
+drop an incremental save
 save Europa1-35 
 2022-07-06 14:57:38
 quit
@@ -928,3 +928,21 @@ kill game, load latest autosave from 16:44
 starting 
 up/up 
 
+2022-07-06 22:08:39
+PC went into standby????
+console unresponsive ?
+<CTRL>-C
+loadlatest
+2022-07-06 22:09:51
+loading 
+up/up 
+
+2022-07-06 23:41:59
+clients having trouble joining - I'm OK, but I'm on the same local LAN 
+drop an incremental save
+save Europa1-36 
+quit
+2022-07-06 23:44:18
+./rocketstation_DedicatedServer.exe -loadlatest -settings ServerName EkimsDed StartLocalHost true ServerVisible true UPNPEnabled false AutoSave true SaveInterval 600
+up/up 
+Thingcount 10000 +
