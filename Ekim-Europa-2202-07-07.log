@@ -1,0 +1,87 @@
+2022-07-07 14:25:46
+UPDATEVERSION=Update 0.2.3398.16700
+UPDATEDATE=Thu 07/07/2022
+UPDATENOTES=<size=20><b>[Version 0.2.3398.16700]</b></size>
+
+2022-07-07 14:30:52
+- archived all the .16665 saves
+2022-07-07 14:27:47
+./rocketstation_DedicatedServer.exe -new Europa2 -settings ServerName EkimsDedAgin ServerPassword dedagain StartLocalHost true ServerVisible true GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+
+2022-07-07 14:29:26
+server up 
+
+14:31:04: Started new game in world Europa2
+14:31:09: error failed to register '27016' using upnp
+
+it still wants to UPnP but I'm telling it not to 
+./rocketstation_DedicatedServer.exe -load Europa2-00 -settings ServerName EkimsDedAgin ServerPassword dedagain StartLocalHost true ServerVisible true GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+./rocketstation_DedicatedServer.exe -new Europa2 -settings ServerName EkimsDedAgin ServerPassword dedagain StartLocalHost true ServerVisible true GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+./rocketstation_DedicatedServer.exe -load Europa2-00 -settings ServerName EkimsDedAgin ServerPassword dedagain StartLocalHost true ServerVisible true GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+2022-07-07 14:54:07
+new BETA build 
+updoot server 
+UPDATEVERSION=Update 0.2.3399.16708
+
+./rocketstation_DedicatedServer.exe -load Europa1-37 -settings ServerName EkimsDedAgain ServerPassword dedagain StartLocalHost true ServerVisible true GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+2022-07-07 16:02:30
+server and client are now on 0.2.3401.16711
+save loads, looks good
+
+we're up/up 
+
+feels smoother ..... 
+
+2022-07-07 17:07:14
+beta patch 0.2.3399.17715
+client updated
+save Europa1-38 
+no, wait saves have changed, it's auto under the svefile name maybe?
+
+17:06:30: World Saving...
+17:06:30: Successfully retrieved world data for save...
+17:06:32: World Saved: C:/steamcmd/steamapps/common/Stationeers Dedicated Server/saves/Europa1-37, BackupIndex: 13
+
+ c:\steamcmd\steamcmd.exe +login anonymous +app_update 600760 -beta beta validate +quit
+
+bugger - no Europa-38 save - I should have checked 
+./rocketstation_DedicatedServer.exe -loadlatest -settings ServerName EkimsDedAgain ServerPassword dedagain StartLocalHost true ServerVisible true GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+v 0.2.3402.16715
+up - but not being advertised 
+
+aha! 
+17:12:33: Auto save stopped
+17:12:33: Auto save started (600)
+17:12:33: Directory doesn't exist: C:\steamcmd\steamapps\common\Stationeers Dedicated Server\saves\Europa1-38 and no backup world name was given
+17:12:33: Ready
+
+---- I'll sort this out ---- 
+quit 
+
+./rocketstation_DedicatedServer.exe -load Europa-37 -settings ServerName EkimsDedAgain ServerPassword dedagain StartLocalHost true ServerVisible true GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+17:17:29: Auto save started (600)
+17:17:29: Directory doesn't exist: C:\steamcmd\steamapps\common\Stationeers Dedicated Server\saves\Europa-37 and no backup world name was given
+bugger 
+
+./rocketstation_DedicatedServer.exe -load "C:\steamcmd\steamapps\common\Stationeers Dedicated Server\saves\Europa-37" -settings ServerName EkimsDedAgain ServerPassword dedagain StartLocalHost true ServerVisible true GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+eh
+17:18:55: Directory doesn't exist: C:\steamcmd\steamapps\common\Stationeers Dedicated Server\saves\C:\steamcmd\steamapps\common\Stationeers Dedicated Server\saves\Europa-37 and no backup world name was given
+
+./rocketstation_DedicatedServer.exe -load "Europa-37" -settings ServerName EkimsDedAgain ServerPassword dedagain StartLocalHost true ServerVisible true GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+hmm... nope 
+17:20:34: Auto save started (600)
+17:20:34: Directory doesn't exist: C:\steamcmd\steamapps\common\Stationeers Dedicated Server\saves\Europa-37 and no backup world name was given
+
+going to try this in setting.xml
+<savepath>C:\steamcmd\steamapps\common\Stationeers Dedicated Server\saves\<SavePath />
+./rocketstation_DedicatedServer.exe -load Europa-37 -settings ServerName EkimsDedAgain ServerPassword dedagain StartLocalHost true ServerVisible true GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+hmmm... nope
+
+- can't load the save at the moment
+server is down 
