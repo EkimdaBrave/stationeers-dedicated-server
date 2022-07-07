@@ -63,25 +63,15 @@ aha!
 ---- I'll sort this out ---- 
 quit 
 
-./rocketstation_DedicatedServer.exe -load Europa-37 -settings ServerName EkimsDedAgain ServerPassword dedagain StartLocalHost true ServerVisible true GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
 
-17:17:29: Auto save started (600)
-17:17:29: Directory doesn't exist: C:\steamcmd\steamapps\common\Stationeers Dedicated Server\saves\Europa-37 and no backup world name was given
-bugger 
+2022-07-07 17:43:02
+./rocketstation_DedicatedServer.exe -load Europa1-37 Europa2 -settings ServerName EkimsDedAgain ServerPassword dedagain StartLocalHost true ServerVisible true GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
 
-./rocketstation_DedicatedServer.exe -load "C:\steamcmd\steamapps\common\Stationeers Dedicated Server\saves\Europa-37" -settings ServerName EkimsDedAgain ServerPassword dedagain StartLocalHost true ServerVisible true GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
-eh
-17:18:55: Directory doesn't exist: C:\steamcmd\steamapps\common\Stationeers Dedicated Server\saves\C:\steamcmd\steamapps\common\Stationeers Dedicated Server\saves\Europa-37 and no backup world name was given
-
-./rocketstation_DedicatedServer.exe -load "Europa-37" -settings ServerName EkimsDedAgain ServerPassword dedagain StartLocalHost true ServerVisible true GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
-hmm... nope 
-17:20:34: Auto save started (600)
-17:20:34: Directory doesn't exist: C:\steamcmd\steamapps\common\Stationeers Dedicated Server\saves\Europa-37 and no backup world name was given
-
-going to try this in setting.xml
-<savepath>C:\steamcmd\steamapps\common\Stationeers Dedicated Server\saves\<SavePath />
-./rocketstation_DedicatedServer.exe -load Europa-37 -settings ServerName EkimsDedAgain ServerPassword dedagain StartLocalHost true ServerVisible true GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
-hmmm... nope
-
-- can't load the save at the moment
-server is down 
+and, we're up!
+ 
+2022-07-07 18:40:50
+some IC weridness
+restarting 
+save Europa1-37
+quit
+joined succesfully
