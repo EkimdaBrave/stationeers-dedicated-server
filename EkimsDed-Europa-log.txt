@@ -959,3 +959,46 @@ we're good (well, I'm in)
 Rev is back in
 sleep time
 
+2022-07-07 08:36:18
+server not visible - restarting 
+save Europa1-37 
+quit 
+./rocketstation_DedicatedServer.exe -loadlatest -settings ServerName EkimsDed StartLocalHost true ServerVisible true UPNPEnabled false AutoSave true SaveInterval 600
+
+2022-07-07 10:41:17
+big patch to 'default' today
+have discovered that I've been running the server on 'dev' not 'beta' which explains my confusion about the server version
+- quick poll on Discord. Results;
+    go backto 'default'
+    add password to server - it's in Discord 
+save Europa1-37 
+
+2022-07-07 11:04:21
+c:\steamcmd\steamcmd.exe +login anonymous +app_update 600760 validate +quit
+
+./rocketstation_DedicatedServer.exe -loadlatest -settings ServerName EkimsDed ServerPassword dedagain StartLocalHost true ServerVisible true UPNPEnabled false AutoSave true SaveInterval 600
+server appeared to hang while startting 
+server didn't start with -loadlatest 
+
+./rocketstation_DedicatedServer.exe -load Europa1-37 -settings ServerName EkimsDed ServerPassword dedagain StartLocalHost true ServerVisible true UPNPEnabled false AutoSave true SaveInterval 600
+no start ?
+./rocketstation_DedicatedServer.exe -load Europa1-37 Europa2 -settings ServerName EkimsDed ServerPassword dedagain StartLocalHost true ServerVisible true UPNPEnabled false AutoSave true SaveInterval 600
+no start ?
+
+OK, back to BETA - see what happens
+c:\steamcmd\steamcmd.exe +login anonymous +app_update 600760 -beta beta validate +quit
+./rocketstation_DedicatedServer.exe -load Europa1-37 Europa2 -settings ServerName EkimsDed ServerPassword dedagain StartLocalHost true ServerVisible true UPNPEnabled false AutoSave true SaveInterval 600
+server appears to hang on startup trying to laod the latest save
+- server will start if it can't load the save though (get yellow log messages when it contacts the master server)
+I have to do my real job - this will be down for a bit 
+
+./rocketstation_DedicatedServer.exe -load Europa1-36 Europa2 -settings ServerName EkimsDed ServerPassword dedagain StartLocalHost true ServerVisible true UPNPEnabled false AutoSave true SaveInterval 600
+
+2022-07-07 13:41:59
+back to main 
+./rocketstation_DedicatedServer.exe -loadlatest -settings ServerName EkimsDed ServerPassword dedagain StartLocalHost true ServerVisible true UPNPEnabled false AutoSave true SaveInterval 600
+stalls 
+
+UPDATEVERSION=Update 0.2.3398.16700
+
+put this save aside for now 
