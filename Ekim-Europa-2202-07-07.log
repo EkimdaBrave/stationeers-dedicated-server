@@ -75,3 +75,47 @@ restarting
 save Europa1-37
 quit
 joined succesfully
+
+2022-07-07 20:06:11
+I broke it
+either playing wiuth elevators, or running out of batt in my suit ?
+quit
+
+2022-07-07 20:07:43
+./rocketstation_DedicatedServer.exe -load Europa1-37 Europa2 -settings ServerName EkimsDedAgain ServerPassword dedagain StartLocalHost true ServerVisible true GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+up/up 
+
+2022-07-07 22:49:54
+can't interact with things
+save Europa1-37
+server not advertised
+- got booted
+
+quit
+
+2022-07-07 22:52:55
+updoot! 
+ c:\steamcmd\steamcmd.exe +login anonymous +app_update 600760 -beta beta validate +quit
+load 'er up! 
+./rocketstation_DedicatedServer.exe -load Europa1-37 Europa2 -settings ServerName EkimsDedAgain ServerPassword dedagain StartLocalHost true ServerVisible true GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+2022-07-07 22:55:55
+up 
+
+2022-07-07 23:49:59
+end stream
+save Europa1-37
+
+2022-07-08 07:28:32
+UPDOOT!
+RESTART! 
+
+save Europa1-37
+ c:\steamcmd\steamcmd.exe +login anonymous +app_update 600760 -beta beta validate +quit
+
+2022-07-08 07:30:47
+./rocketstation_DedicatedServer.exe -load Europa1-37 Europa2 -settings ServerName EkimsDedAgain ServerPassword dedagain StartLocalHost true ServerVisible true GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+2022-07-08 12:47:37
+save Europa1-37
