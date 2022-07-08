@@ -112,10 +112,49 @@ UPDOOT!
 RESTART! 
 
 save Europa1-37
- c:\steamcmd\steamcmd.exe +login anonymous +app_update 600760 -beta beta validate +quit
+c:\steamcmd\steamcmd.exe +login anonymous +app_update 600760 -beta beta validate +quit
 
 2022-07-08 07:30:47
 ./rocketstation_DedicatedServer.exe -load Europa1-37 Europa2 -settings ServerName EkimsDedAgain ServerPassword dedagain StartLocalHost true ServerVisible true GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
 
 2022-07-08 12:47:37
 save Europa1-37
+
+2022-07-08 13:55:22
+save Europa1-37
+updoot!
+c:\steamcmd\steamcmd.exe +login anonymous +app_update 600760 -beta beta validate +quit
+restart 
+./rocketstation_DedicatedServer.exe -load Europa1-37 Europa2 -settings ServerName EkimsDedAgain ServerPassword dedagain StartLocalHost true ServerVisible true GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+server up
+
+2022-07-08 16:18:04
+updoot
+save Europa1-37
+quit 
+
+c:\steamcmd\steamcmd.exe +login anonymous +app_update 600760 -beta beta validate +quit
+
+./rocketstation_DedicatedServer.exe -load Europa1-37 Europa2 -settings ServerName EkimsDedAgain ServerPassword dedagain StartLocalHost true ServerVisible true UPNPEnabled false AutoSave true SaveInterval 600
+
+2022-07-08 16:53:39
+ghost fire again 
+save Europa1-37
+quit
+restart
+up 
+2022-07-08 16:57:41
+can't interact 
+quit 
+restart 
+up
+2022-07-08 20:53:43
+home
+updoot 
+quit 
+c:\steamcmd\steamcmd.exe +login anonymous +app_update 600760 -beta beta validate +quit
+./rocketstation_DedicatedServer.exe -load Europa1-37 Europa2 -settings ServerName EkimsDedAgain ServerPassword dedagain StartLocalHost true ServerVisible true UPNPEnabled false AutoSave true SaveInterval 600
+
+2022-07-08 22:46:24
+loggoff - sleep 
