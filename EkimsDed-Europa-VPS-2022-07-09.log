@@ -88,3 +88,11 @@ issue with mining rocket - command pod - something something
 save 
 re-start 
 ./rocketstation_DedicatedServer.x86_64 -load Europa1-37 Europa2 -noclear -settings ServerName EkimsDedAgain ServerPassword dedagain StartLocalHost true ServerVisible true ServerMaxPlayers 10 UPNPEnabled false AutoSave true SaveInterval 600
+
+2022-07-09 12:33:33
+*** next restart; use tmux, or screen or something 
+TODO:   do / find systemd configs and make it a service 
+        easy interface for restarts?
+            mnust be one, just need to find it?
+        add the admins
+
