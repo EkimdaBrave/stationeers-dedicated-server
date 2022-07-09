@@ -122,3 +122,42 @@ quit
 2022-07-09 15:42:09
 ./rocketstation_DedicatedServer.x86_64 -load Europa1-37 Europa2 -noclear -settings ServerName EkimsDedAgain ServerPassword dedagain StartLocalHost true ServerVisible true ServerMaxPlayers 10 UPNPEnabled false AutoSave true SaveInterval 600
 up 
+
+2022-07-09 16:08:34
+the fire is back
+./rocketstation_DedicatedServer.x86_64 -loadlatest -noclear -settings ServerName EkimsDedAgain ServerPassword dedagain StartLocalHost true ServerVisible true ServerMaxPlayers 10 UPNPEnabled false AutoSave true SaveInterval 600
+up 
+fire is out 
+
+2022-07-09 17:13:08
+SErver is not registered
+
+ System.Exception: Issue with current session: {
+  "SessionId": 19323,
+  "Name": "EkimsDedAgain",
+  "Password": true,
+  "Version": "0.2.3412.16740",
+  "Address": "66.94.123.161",
+  "Checksum": "42518E5B",
+  "Port": "27016",
+  "Players": 0,
+  "MaxPlayers": 10,
+  "UpTime": 3445706,
+  "MapName": "Europa2",
+  "Latency": 0,
+  "Type": 2
+}
+
+
+ masterserver refresh
+> masterserver refresh
+22:11:59: Registering game session with master server...
+22:12:00: GameSession registered. SessionId: 19408
+> Log: connection {1} has been disconnected by timeout; address {::ffff:75.142.66.100:27017} time {3833161}, last rec time {3830985} rtt {37} timeout {2000}
+Log: connection {2} has been disconnected by timeout; address {::ffff:175.111.102.125:27017} time {3851373}, last rec time {3849186} rtt {313} timeout {2000}
+
+-nope, that fucked it 
+booted us both - console stopped responding 
+kill process, restarting 
+
+- there were bugger allservers in the browser / lister - maybe the master server had an oops ?
