@@ -1,0 +1,90 @@
+VPS setup
+
+2022-07-04 19:54:22
+https://help.skysilk.com/support/solutions/articles/9000181921-how-to-install-and-use-steamcmd-on-ubuntu-linux
+
+sudo useradd -m steam
+sudo apt update && sudo apt upgrade
+
+sudo apt install software-properties-common
+
+sudo add-apt-repository multiverse
+
+sudo dpkg --add-architecture i386
+
+sudo apt update
+
+sudo apt install steamcmd
+
+steamcmd +login anonymous +app_update 600760 -beta beta validate +quit
+
+
+
+------------- test map ----------
+# for reference #./rocketstation_DedicatedServer.exe -load Europa1-30 -settings ServerName EkimsDed StartLocalHost true ServerVisible true ServerMaxPlayers 8 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+
+cd /home/steam/Steam/steamapps/common/Stationeers Dedicated Server
+tmux new -s Ekim-dedi 
+./rocketstation_DedicatedServer.x86_64 -new Ekim-ded-Mars1 Mars -settings ServerName Ekimtest ServerPassword bobbob123 StartLocalHost true ServerVisible true ServerMaxPlayers 8 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+---- from another ssh session ----
+su steam 
+Ctrl+B, and then D, you will detach the session
+tmux attach-session -t Ekim-dedi 
+
+2022-07-05 13:52:01
+
+ekim@vmi923357:~/stationeers-saves$ mv Europa1-31/ /home/steam/Steam/steamapps/common/Stationeers\ Dedicated\ Server/saves/
+
+./rocketstation_DedicatedServer.x86_64 -load Europa-31 -noclear -settings ServerName Ekimtest ServerPassword bobbob123 StartLocalHost true ServerVisible true ServerMaxPlayers 8 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+
+2022-07-05 16:14:07
+fecking thing not advertised 
+- did -noclear and it looks like it's not actually starting, but hanging with the Europa1-31 save transferred from Windows Potato
+- Ubuntu 20.0.4 - default FW == 'UFW' but it's off..
+
+2022-07-09 09:30:53
+updoote 
+steamcmd +login anonymous +app_update 600760 -beta beta validate +quit
+./rocketstation_DedicatedServer.x86_64 -load Europa-31 Europa2 -settings ServerName Ekimtest ServerPassword bobbob123 StartLocalHost true ServerVisible true ServerMaxPlayers 8 GamePort 27016 UpdatePort 27015 UPNPEnabled false AutoSave true SaveInterval 600
+
+2022-07-09 11:16:11
+all good
+shut down local server 
+zipped up latest
+transferred to VPS 
+
+2022-07-09 11:23:06
+starting up 
+./rocketstation_DedicatedServer.x86_64 -loadlatest -noclear -settings ServerName EkimsDedAgain ServerPassword dedagain StartLocalHost true ServerVisible true ServerMaxPlayers 10 UPNPEnabled false AutoSave true SaveInterval 600
+
+2022-07-09 11:26:00
+See if I can get rid of Uranium
+only 112 stacks, leave it alone ...
+restart 
+./rocketstation_DedicatedServer.x86_64 -loadlatest -noclear -settings ServerName EkimsDedAgain ServerPassword dedagain StartLocalHost true ServerVisible true ServerMaxPlayers 10 UPNPEnabled false AutoSave true SaveInterval 600
+2022-07-09 11:30:57
+up 
+
+2022-07-09 11:47:13
+wrong save 
+quit 
+ ./rocketstation_DedicatedServer.x86_64 -load Europa1-37 Europa2 -noclear -settings ServerName EkimsDedAgain ServerPassword dedagain StartLocalHost true ServerVisible true ServerMaxPlayers 10 UPNPEnabled false AutoSave true SaveInterval 600
+
+2022-07-09 11:52:33
+nullrefs  console un-responsive
+ ./rocketstation_DedicatedServer.x86_64 -load Europa1-37 Europa2 -noclear -settings ServerName EkimsDedAgain ServerPassword dedagain StartLocalHost true ServerVisible true ServerMaxPlayers 10 UPNPEnabled false AutoSave true SaveInterval 600
+sudo kill 31456 
+
+2022-07-09 12:00
+fixed up save directory deleted old, unzipped proper save etc.
+./rocketstation_DedicatedServer.x86_64 -load Europa1-37 Europa2 -noclear -settings ServerName EkimsDedAgain ServerPassword dedagain StartLocalHost true ServerVisible true ServerMaxPlayers 10 UPNPEnabled false AutoSave true SaveInterval 600
+working!
+
+2022-07-09 12:31:42
+issue with mining rocket - command pod - something something 
+save 
+re-start 
+./rocketstation_DedicatedServer.x86_64 -load Europa1-37 Europa2 -noclear -settings ServerName EkimsDedAgain ServerPassword dedagain StartLocalHost true ServerVisible true ServerMaxPlayers 10 UPNPEnabled false AutoSave true SaveInterval 600

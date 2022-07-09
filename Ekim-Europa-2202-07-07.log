@@ -158,3 +158,17 @@ c:\steamcmd\steamcmd.exe +login anonymous +app_update 600760 -beta beta validate
 
 2022-07-08 22:46:24
 loggoff - sleep 
+
+2022-07-09 09:01:59
+sever not visible 
+save Europa1-37
+quit
+restart
+
+2022-07-09 09:52:31
+VPS is working now- moving save to VPS 
+
+2022-07-09 11:13:09
+moving to VPS
+save Europa1-37
+quit
