@@ -61,36 +61,36 @@ transferred to VPS
 
 2022-07-09 11:23:06
 starting up 
-./rocketstation_DedicatedServer.x86_64 -loadlatest -noclear -settings ServerName EkimsDedAgain ServerPassword dedagain StartLocalHost true ServerVisible true ServerMaxPlayers 10 UPNPEnabled false AutoSave true SaveInterval 600
+./rocketstation_DedicatedServer.x86_64 -loadlatest -noclear -settings ServerName EkimsDedAgain ServerPassword <BLANK> StartLocalHost true ServerVisible true ServerMaxPlayers 10 UPNPEnabled false AutoSave true SaveInterval 600
 
 2022-07-09 11:26:00
 See if I can get rid of Uranium
 only 112 stacks, leave it alone ...
 restart 
-./rocketstation_DedicatedServer.x86_64 -loadlatest -noclear -settings ServerName EkimsDedAgain ServerPassword dedagain StartLocalHost true ServerVisible true ServerMaxPlayers 10 UPNPEnabled false AutoSave true SaveInterval 600
+./rocketstation_DedicatedServer.x86_64 -loadlatest -noclear -settings ServerName EkimsDedAgain ServerPassword <BLANK> StartLocalHost true ServerVisible true ServerMaxPlayers 10 UPNPEnabled false AutoSave true SaveInterval 600
 2022-07-09 11:30:57
 up 
 
 2022-07-09 11:47:13
 wrong save 
 quit 
- ./rocketstation_DedicatedServer.x86_64 -load Europa1-37 Europa2 -noclear -settings ServerName EkimsDedAgain ServerPassword dedagain StartLocalHost true ServerVisible true ServerMaxPlayers 10 UPNPEnabled false AutoSave true SaveInterval 600
+ ./rocketstation_DedicatedServer.x86_64 -load Europa1-37 Europa2 -noclear -settings ServerName EkimsDedAgain ServerPassword <BLANK> StartLocalHost true ServerVisible true ServerMaxPlayers 10 UPNPEnabled false AutoSave true SaveInterval 600
 
 2022-07-09 11:52:33
 nullrefs  console un-responsive
- ./rocketstation_DedicatedServer.x86_64 -load Europa1-37 Europa2 -noclear -settings ServerName EkimsDedAgain ServerPassword dedagain StartLocalHost true ServerVisible true ServerMaxPlayers 10 UPNPEnabled false AutoSave true SaveInterval 600
+ ./rocketstation_DedicatedServer.x86_64 -load Europa1-37 Europa2 -noclear -settings ServerName EkimsDedAgain ServerPassword <BLANK> StartLocalHost true ServerVisible true ServerMaxPlayers 10 UPNPEnabled false AutoSave true SaveInterval 600
 sudo kill 31456 
 
 2022-07-09 12:00
 fixed up save directory deleted old, unzipped proper save etc.
-./rocketstation_DedicatedServer.x86_64 -load Europa1-37 Europa2 -noclear -settings ServerName EkimsDedAgain ServerPassword dedagain StartLocalHost true ServerVisible true ServerMaxPlayers 10 UPNPEnabled false AutoSave true SaveInterval 600
+./rocketstation_DedicatedServer.x86_64 -load Europa1-37 Europa2 -noclear -settings ServerName EkimsDedAgain ServerPassword <BLANK> StartLocalHost true ServerVisible true ServerMaxPlayers 10 UPNPEnabled false AutoSave true SaveInterval 600
 working!
 
 2022-07-09 12:31:42
 issue with mining rocket - command pod - something something 
 save 
 re-start 
-./rocketstation_DedicatedServer.x86_64 -load Europa1-37 Europa2 -noclear -settings ServerName EkimsDedAgain ServerPassword dedagain StartLocalHost true ServerVisible true ServerMaxPlayers 10 UPNPEnabled false AutoSave true SaveInterval 600
+./rocketstation_DedicatedServer.x86_64 -load Europa1-37 Europa2 -noclear -settings ServerName EkimsDedAgain ServerPassword <BLANK> StartLocalHost true ServerVisible true ServerMaxPlayers 10 UPNPEnabled false AutoSave true SaveInterval 600
 
 2022-07-09 12:33:33
 *** next restart; use tmux, or screen or something 
@@ -112,7 +112,7 @@ beta and main are out of sync - downgrading server
 save Europa1-37
 quit 
 steamcmd +login anonymous +app_update 600760 -beta none validate +quit
-./rocketstation_DedicatedServer.x86_64 -load Europa1-37 Europa2 -noclear -settings ServerName EkimsDedAgain ServerPassword dedagain StartLocalHost true ServerVisible true ServerMaxPlayers 10 UPNPEnabled false AutoSave true SaveInterval 600
+./rocketstation_DedicatedServer.x86_64 -load Europa1-37 Europa2 -noclear -settings ServerName EkimsDedAgain ServerPassword <BLANK> StartLocalHost true ServerVisible true ServerMaxPlayers 10 UPNPEnabled false AutoSave true SaveInterval 600
 
 2022-07-09 15:41:25
 st elmos fire 
@@ -120,12 +120,12 @@ save Europa1-37
 quit
 
 2022-07-09 15:42:09
-./rocketstation_DedicatedServer.x86_64 -load Europa1-37 Europa2 -noclear -settings ServerName EkimsDedAgain ServerPassword dedagain StartLocalHost true ServerVisible true ServerMaxPlayers 10 UPNPEnabled false AutoSave true SaveInterval 600
+./rocketstation_DedicatedServer.x86_64 -load Europa1-37 Europa2 -noclear -settings ServerName EkimsDedAgain ServerPassword <BLANK> StartLocalHost true ServerVisible true ServerMaxPlayers 10 UPNPEnabled false AutoSave true SaveInterval 600
 up 
 
 2022-07-09 16:08:34
 the fire is back
-./rocketstation_DedicatedServer.x86_64 -loadlatest -noclear -settings ServerName EkimsDedAgain ServerPassword dedagain StartLocalHost true ServerVisible true ServerMaxPlayers 10 UPNPEnabled false AutoSave true SaveInterval 600
+./rocketstation_DedicatedServer.x86_64 -loadlatest -noclear -settings ServerName EkimsDedAgain ServerPassword <BLANK> StartLocalHost true ServerVisible true ServerMaxPlayers 10 UPNPEnabled false AutoSave true SaveInterval 600
 up 
 fire is out 
 
@@ -161,3 +161,117 @@ booted us both - console stopped responding
 kill process, restarting 
 
 - there were bugger allservers in the browser / lister - maybe the master server had an oops ?
+
+2022-07-15 11:30:53
+fixed griefer issues 
+| NotADictator        connectTime: 36987.0s, ClientId: 76561198041770894
+
+15:18:45: Client Connection '2' from address '::ffff:76.68.190.171' on port '27017' connected, Verification Awaiting 
+15:18:45: Client Connection '2' from address '::ffff:76.68.190.171' on port '27017' connected, Verification Awaiting                    
+15:18:45: Process verify player 76561198041770894                                                                                       
+15:18:45: Adding player to server: NotADictator | 76561198041770894                                                                     
+15:18:45: Pause on Player connect                                                                                                       
+15:18:45: Game is Paused                                                                                                                
+15:18:46: Packaged join data length: 1700848                                                                                            
+15:18:46: Sending meta data                                                                                                             
+15:18:46: client 'NotADictator' from '::ffff:76.68.190.171' on '27017' connected                                                        
+15:18:46: Processing Join Queue                                                                                                         
+15:18:46: Processing Join Queue                                                                                                         
+15:18:46: 1 clients in queue                                                                                                            
+15:18:46: Client: NotADictator (76561198041770894). Receiving                                                                           
+15:18:54: Client: NotADictator (76561198041770894). Connected. 1700848 / 1700848                                                        
+15:18:54: Client NotADictator (76561198041770894) Dequeued                                                                              
+15:19:09: Client NotADictator (76561198041770894) is ready!                                                                             
+15:19:09: Game is resumed                                                                                                              
+15:19:09: Number of fragments send this frame exceeded the maximum(50): 50              
+
+----------------- BUGGERED SAVE ---------------------
+steam@ekim-dedi:~/Steam/steamapps/common/Stationeers Dedicated Server/saves/Europa1-37$ ll
+total 36940
+drwxrwxr-x 3 steam steam     4096 Jul 14 15:23 ./
+drwxrwxr-x 6 steam steam     4096 Jul 14 15:44 ../
+drwxrwxr-x 2 steam steam     4096 Jul 14 15:23 Backup/
+-rw-rw-r-- 1 steam steam  4559421 Jul 12 15:31 Backup.zip
+-rw-rw-r-- 1 steam steam  4849983 Jul 14 15:23 world.bin
+-rw-rw-r-- 1 steam steam      795 Jul 14 15:23 world_meta.xml
+-rw-rw-r-- 1 steam steam    21221 Jul 14 15:23 worldsettings.xml
+-rw-rw-r-- 1 steam steam 28367935 Jul 14 15:23 world.xml
+steam@ekim-dedi:~/Steam/steamapps/common/Stationeers Dedicated Server/saves/Europa1-37$
+
+
+-rw-rw-r-- 1 steam steam      795 Jul 14 15:03 'world_meta(59)_AutoSave.xml'
+
+-rw-rw-r-- 1 steam steam      795 Jul 14 15:13 'world_meta(60)_AutoSave.xml'
+-rw-rw-r-- 1 steam steam 28188625 Jul 14 15:13 'world(60)_AutoSave.xml'
+-rw-rw-r-- 1 steam steam  4849983 Jul 14 15:23 'world(61)_AutoSave.bin'
+-rw-rw-r-- 1 steam steam 28367935 Jul 14 15:23 'world(61)_AutoSave.xml'
+-rw-rw-r-- 1 steam steam  4579272 Jul  7 11:04 'world(6).bin'
+-rw-rw-r-- 1 steam steam 17845458 Jul  7 11:04 'world(6).xml'
+-rw-rw-r-- 1 steam steam  4816801 Jul 12 15:27 'world(800).bin'
+-rw-rw-r-- 1 steam steam 23958664 Jul 12 15:27 'world(800).xml'
+-rw-rw-r-- 1 steam steam  4655535 Jul 14 04:45 'world(801).bin'
+-rw-rw-r-- 1 steam steam 25921282 Jul 14 04:45 'world(801).xml'
+-rw-rw-r-- 1 steam steam  4655291 Jul 14 05:01 'world(804).bin'
+-rw-rw-r-- 1 steam steam 25998952 Jul 14 05:01 'world(804).xml'
+
+cd ~/Steam/steamapps/common/Stationeers\ Dedicated\ Server/saves/Europa1-37
+
+cp Backup/world_meta\(60\)_AutoSave.xml world_meta.xml
+cp Backup/world\(60\)_AutoSave.xml world.xml
+cp Backup/world\(60\)_AutoSave.bin world.bin
+
+./rocketstation_DedicatedServer.x86_64 -loadlatest -noclear -settings ServerName EkimsDedAgain ServerPassword <BLANK> StartLocalHost true ServerVisible true ServerMaxPlayers 10 UPNPEnabled false AutoSave true SaveInterval 600
+
+
+./rocketstation_DedicatedServer.x86_64 -loadlatest -noclear -settings ServerName NAME ServerPassword <BLANK> StartLocalHost true ServerVisible true ServerMaxPlayers 10 UPNPEnabled false AutoSave true SaveInterval 600
+./rocketstation_DedicatedServer.x86_64 -new europa2 -noclear -settings ServerName NAME ServerPassword <BLANK> StartLocalHost true ServerVisible true ServerMaxPlayers 10 UPNPEnabled false AutoSave true SaveInterval 600
+
+2022-07-19 19:53:46
+
+big update 
+server no start 
+
+loaded save locally - revs suit blew up and destroyed heaps 
+--- on server ---
+
+-rw-rw-r-- 1 steam steam      795 Jul 18 23:30 'world_meta(16)_AutoSave.xml'
+-rw-rw-r-- 1 steam steam      795 Jul 18 23:40 'world_meta(17)_AutoSave.xml'
+-rw-rw-r-- 1 steam steam      795 Jul 18 23:50 'world_meta(18)_AutoSave.xml'
+
+chose 'world_meta(17)_AutoSave.xml'
+and replaced saves with this....
+
+nope 
+someone else on Stationeers discord has same issue 
+
+
+2022-07-21 11:31:07
+
+2022-07-23 10:43:11
+bring the save local and run it on beta (windows)
+
+tar -czf archive.tar.gz file1 file2
+tar -czf Europa1-37-backup-2022-07-23.tar.gz saves/Europa1-37/*
+
+cd \steamcmd\steamapps\common\Stationeers\Dedicated\Server
+# go to beta
+\steamcmd\steamcmd +login anonymous +app_update 600760 -beta beta validate +quit
+# crank it up - see what happens...
+rocketstation_DedicatedServer.exe -loadlatest -noclear -settings ServerName EkimMuneLab ServerPassword dedagain StartLocalHost true ServerVisible true ServerMaxPlayers 10 UPNPEnabled false AutoSave true SaveInterval 600
+
+66.94.123.161:27016
+
+2022-07-25 16:43:39
+updoot BETA local server 
+
+\steamcmd\steamcmd +login anonymous +app_update 600760 -beta beta validate +quit
+rocketstation_DedicatedServer.exe -loadlatest -noclear -settings ServerName EkimMuneLab ServerPassword dedagain StartLocalHost true ServerVisible true ServerMaxPlayers 10 UPNPEnabled false AutoSave true SaveInterval 600
+
+rocketstation_DedicatedServer.exe -load EkimMuneLab-beta -noclear -settings ServerName EkimMuneLab ServerPassword dedagain StartLocalHost true ServerVisible true UPNPEnabled false AutoSave true SaveInterval 600
+
+\steamcmd\steamcmd +login anonymous +app_update 600760 validate +quit
+
+./rocketstation_DedicatedServer.x86_64 -new mars -noclear -settings ServerName TEST ServerPassword BOBBOB123 StartLocalHost true ServerVisible true ServerMaxPlayers 10 UPNPEnabled false AutoSave true SaveInterval 600
+
+
+tar -czf Europa1-37-backup-2022-07-28.tar.gz saves/Europa1-37/*
