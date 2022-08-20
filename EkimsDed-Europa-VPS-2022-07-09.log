@@ -285,3 +285,8 @@ respawn:          normal  (easy|stationeers)
 
 ./rocketstation_DedicatedServer.x86_64 -new mars -noclear -settings ServerName EkimMarz ServerPassword dedagain
 
+2022-07-31 08:13:44
+
+- updoot - try Europa1-37 ?
+./rocketstation_DedicatedServer.x86_64 -load Europa1-37 -noclear -settings ServerName EkimEuropaMegaBase ServerPassword dedagain
+
