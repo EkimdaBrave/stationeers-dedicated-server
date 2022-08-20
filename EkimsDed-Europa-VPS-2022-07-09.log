@@ -275,3 +275,13 @@ rocketstation_DedicatedServer.exe -load EkimMuneLab-beta -noclear -settings Serv
 
 
 tar -czf Europa1-37-backup-2022-07-28.tar.gz saves/Europa1-37/*
+
+2022-07-29 10:28:35
+--------------- issues with current save ---------------
+start a Mars server for shits and giggles
+
+Start Conditions: default
+respawn:          normal  (easy|stationeers)
+
+./rocketstation_DedicatedServer.x86_64 -new mars -noclear -settings ServerName EkimMarz ServerPassword dedagain
+
