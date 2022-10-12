@@ -1,0 +1,5 @@
+2022-10-12 23:41:50
+LouKhaaannnnn
+
+
+./rocketstation_DedicatedServer.exe -load LouKhaaannnnn -settings ServerName EkimsDedAgain ServerPassword dedagain StartLocalHost true ServerVisible true UPNPEnabled false AutoSave true SaveInterval 600
